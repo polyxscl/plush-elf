@@ -1,0 +1,51 @@
+#window-controls {
+    position: relative;
+
+    height: 100%;
+    
+    margin-left: auto; 
+    margin-right: 0;
+
+    display: flex;
+    justify-content: row;
+}
+
+#window-control-minimize, #window-control-maximize, #window-control-close {
+    width: 45px;
+    height: 100%;
+    border: none;
+    background: none;
+    transition: background filter 0.1s;
+
+    svg {
+        width: 12px;
+        height: 12px;
+        margin: auto;
+
+        color: rgb(35, 35, 35);
+        transition: color 0.1s;
+    }
+}
+
+#window-control-minimize, #window-control-maximize {
+    &:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    &:hover:active {
+        background: rgba(0, 0, 0, 0.2);
+    }
+}
+
+#window-control-close {
+    &:hover {
+        background: rgba(255, 40, 80, 0.6);
+        svg {
+            color: rgb(235, 235, 235);
+        }
+    }
+
+    &:hover:active {
+        background: rgba(255, 40, 80, 0.8);
+    }
+}

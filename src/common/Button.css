@@ -1,0 +1,60 @@
+.button {
+    
+    background: rgb(var(--color-bg1));
+    border: 2px solid rgb(var(--color-fg-info));
+    color: rgb(var(--color-fg-info));
+    border-radius: 8px;
+    padding: 3px 6px;
+
+    font-family: 'Noto Sans Variable', sans-serif;
+    font-size: 12px;
+
+    margin-right: 5px;
+
+    transition: 0.1s;
+}
+
+.button:hover {
+    border-color: rgb(var(--color-fg-info-high));
+    color: rgb(var(--color-fg-info-high));
+}
+
+.button:active {
+    background: rgb(var(--color-bg-info));
+}
+
+.button.confirm {
+    border-color: rgb(var(--color-fg-confirm));
+    color: rgb(var(--color-fg-confirm));
+}
+
+.button.confirm:hover {
+    border-color: rgb(var(--color-fg-confirm-high));
+    color: rgb(var(--color-fg-confirm-high));
+}
+
+.button.confirm:active {
+    background: rgb(var(--color-bg-confirm));
+}
+
+.button.deny {
+    border-color: rgb(var(--color-fg-deny));
+    color: rgb(var(--color-fg-deny));
+}
+
+.button.deny:hover {
+    border-color: rgb(var(--color-fg-deny-high));
+    color: rgb(var(--color-fg-deny-high));
+}
+
+.button.deny:active {
+    background: rgb(var(--color-bg-deny));
+}
+
+.button.toggle.on {
+    background: rgb(var(--color-bg-info));
+}
+
+.button.toggle.on:active {
+    background: rgb(var(--color-bg1));
+}

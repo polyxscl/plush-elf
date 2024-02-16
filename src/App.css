@@ -1,0 +1,12 @@
+#body {
+    position: absolute;
+    top: 30px;
+    width: 100vw;
+    height: calc(100vh - 30px);
+
+    background: rgb(245, 245, 245);
+}
+
+* {
+    font-family: "Noto Sans Variable", sans-serif;
+}

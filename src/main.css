@@ -1,0 +1,24 @@
+:root {
+    --color-fg1: 38, 60, 115;
+    --color-bg1: 245, 245, 245;
+    --color-bg2: 235, 235, 235;
+    --color-bg3: 225, 225, 225;
+
+    --color-topbar: 89, 108, 166;
+
+    --color-fg-info: 38, 60, 115;
+    --color-bg-info: 224, 230, 245;
+    --color-fg-info-high: 64, 96, 191;
+    --color-fg-confirm: 38, 115, 44;
+    --color-bg-confirm: 224, 245, 226;
+    --color-fg-confirm-high: 64, 191, 74;
+    --color-fg-deny: 115, 38, 70;
+    --color-bg-deny: 245, 224, 233;
+    --color-fg-deny-high: 191, 64, 117;
+
+    background: black;
+}
+
+body {
+    margin: 0;
+}

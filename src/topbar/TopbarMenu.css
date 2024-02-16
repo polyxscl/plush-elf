@@ -1,0 +1,25 @@
+.topbar-menu-button {
+    position: relative;
+    
+    padding: 5px 10px;
+    width: auto;
+    height: 100%;
+
+    border: none;
+    background: none;
+    transition: 0.1s;
+
+    color: rgb(63, 63, 63);
+    font-size: 12px;
+    font-weight: 600;
+
+    &:hover {
+        color: rgb(121, 158, 210);
+    }
+
+    &:hover:active {
+        color: rgb(57, 105, 172);
+        background: rgba(121, 158, 210, 0.1);
+        transition: 0s;
+    }
+}
